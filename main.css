@@ -41,13 +41,12 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 3em;
 }
 
 #links img {
     padding: 1em;
-    height: 4em;
-    width: 4em;
+    height: auto;
+    width: 2em;
 }
 
 img {
