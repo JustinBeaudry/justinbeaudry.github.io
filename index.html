@@ -22,10 +22,9 @@
                 <span class="role">DIRECTOR_OF_ENGINEERING</span>
             </div>
             <nav class="system-nav">
-                <a href="#core-directive">[ DIRECTIVE ]</a>
-                <a href="#operation-log">[ LOGS ]</a>
-                <a href="#network-nodes">[ NETWORK ]</a>
-                <a href="#system-specs">[ SPECS ]</a>
+                <span>[ SYSTEM: ONLINE ]</span>
+                <span>[ NET: SECURE ]</span>
+                <span>[ VERSION: 2.0.4 ]</span>
             </nav>
         </div>
         <div class="sub-header">
@@ -33,245 +32,92 @@
         </div>
     </header>
 
-    <main class="grid-container">
+    <!-- Main HUD Container -->
+    <main class="hud-grid">
+        <!-- CARD 1: Actual Reality -->
+        <div class="hud-card" id="card-ar">
+            <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
 
-        <!-- SECTION: CORE DIRECTIVE (SUMMARY) -->
-        <section id="core-directive" class="panel">
-            <div class="panel-header">
-                <h3>// CORE_DIRECTIVE</h3>
-                <span class="panel-id">SEC-01</span>
-            </div>
-            <div class="panel-body">
-                <p>I build systems that scale and communities that thrive.</p>
-                <p>Currently directing technology at <strong>EmpoweredAI</strong> and engineering at <strong>Actual Reality Technologies</strong>, where I lead teams in creating AI-driven solutions and real-time data architectures. My focus: turning complex technical challenges into elegant, automated systems that actually work.</p>
-                <p>After years in Silicon Valley startups and enterprise tech, I came back to Toledo with a mission—to prove world-class technology can happen anywhere. As founder of <strong>Toledo Codes</strong> and Toledo Chapter Lead for the <strong>AI Collective</strong>, I'm building bridges between talented developers and meaningful opportunities.</p>
-                <p class="highlight-text">What drives me: The intersection of cutting-edge tech and human potential.</p>
-                <p>Whether I'm architecting cloud solutions, mentoring developers, or bringing together our local tech community, it's all about amplifying what's possible. I've learned that the best solutions come from diverse teams tackling hard problems together. And that sometimes the most innovative work happens far from the usual tech hubs.</p>
-
-                <div class="connection-request">
-                    <p>INITIATE_HANDSHAKE IF:</p>
-                    <ul>
-                        <li>→ Building something ambitious with AI or real-time data</li>
-                        <li>→ Growing tech communities outside traditional hubs</li>
-                        <li>→ Looking for someone who speaks both strategy and code</li>
-                    </ul>
+            <div class="card-content">
+                <span class="card-label">CURRENT_MISSION_01</span>
+                <h3>ACTUAL REALITY</h3>
+                <span class="card-role">DIRECTOR_OF_ENGINEERING</span>
+                <p>Building the engineering organization from the ground up. Defining technical strategy and leading teams to create AI-driven solutions.</p>
+                <div class="tech-stack">
+                    <span>Hexagonal Arch</span>
+                    <span>Agile</span>
+                    <span>SPACE Metrics</span>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- SECTION: OPERATION LOG (EXPERIENCE) -->
-        <section id="operation-log" class="panel">
-            <div class="panel-header">
-                <h3>// OPERATION_LOG</h3>
-                <span class="panel-id">SEC-02</span>
-            </div>
-            <div class="panel-body timeline">
+        <!-- CARD 2: EmpoweredAI -->
+        <div class="hud-card" id="card-eai">
+            <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
 
-                <!-- JOB 1 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2024.11 - PRESENT</span>
-                        <span class="location">TOLEDO, OH</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Director of Engineering</h4>
-                        <h5 class="company">ACTUAL REALITY TECHNOLOGIES</h5>
-                        <p>Building the engineering organization from the ground up at an emerging technology company. I wear every hat; from writing code to defining our entire technical strategy.</p>
-                        <ul class="achievements">
-                            <li>Introduced modern engineering practices: Agile workflows, Linear for project management, SPACE metrics for team health.</li>
-                            <li>Architected our technical foundation, favoring hexagonal architecture and sustainable design patterns.</li>
-                            <li>Established team rituals that actually work: effective 1:1s, focused sprints, async-first Slack culture.</li>
-                            <li>Balance my time between hands-on coding, technical consultations, mentoring interns, and strategic planning.</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <!-- JOB 2 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2024.11 - PRESENT</span>
-                        <span class="location">TOLEDO, OH</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Director of Technology</h4>
-                        <h5 class="company">EMPOWERED_AI</h5>
-                        <p>Leading the company's technology strategy and AI-driven innovation initiatives. I guide cross-functional teams in building scalable solutions while partnering with executive leadership to ensure our technical roadmap drives real business outcomes.</p>
-                    </div>
-                </article>
-
-                <!-- JOB 3 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2023.02 - PRESENT</span>
-                        <span class="location">REMOTE / TOLEDO</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Principal</h4>
-                        <h5 class="company">BEAUDRY SOFTWARE & SYSTEMS</h5>
-                        <p>Consulting and development studio. Collaborating with startups, agencies, and businesses to bring high-impact software solutions to life.</p>
-                        <p>Specializing in generative AI, intelligent systems, and modern web architecture.</p>
-                    </div>
-                </article>
-
-                 <!-- JOB 4 -->
-                 <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2024.02 - 2024.11</span>
-                        <span class="location">USA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Senior Data Engineer</h4>
-                        <h5 class="company">VIDA HEALTH</h5>
-                        <ul class="achievements">
-                            <li><strong>Real-Time Data Ingestion:</strong> Designed real-time event capture system integrating with Snowplow and Fivetran.</li>
-                            <li><strong>Cloud Modernization:</strong> Migrated legacy reporting apps to Google Cloud (Cloud Run/Scheduler), automating 20min/day of manual work.</li>
-                            <li><strong>Customer Analytics:</strong> Developed dynamic performance models using SQL and DBT.</li>
-                            <li><strong>Automation:</strong> Reduced lab report generation time by 90% (20min to <1min) using Python automation.</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <!-- JOB 5 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2023.02 - 2024.02</span>
-                        <span class="location">USA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Senior Software Engineer</h4>
-                        <h5 class="company">UNITED AIRLINES</h5>
-                        <ul class="achievements">
-                            <li><strong>Front-End Modernization:</strong> Revamped React apps for Tech Ops.</li>
-                            <li><strong>Utility Development:</strong> C# monitoring utility for XML validation.</li>
-                            <li><strong>Workflow Enhancement:</strong> Custom React app for vendor docs.</li>
-                        </ul>
-                    </div>
-                </article>
-
-                 <!-- JOB 6 -->
-                 <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2021.07 - 2022.11</span>
-                        <span class="location">USA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Lead Software Engineer</h4>
-                        <h5 class="company">STUDIO MANAGEMENT LLC</h5>
-                        <p>Early team member. Architected next-gen thought-worker tools. Established engineering frameworks and scaling platforms.</p>
-                    </div>
-                </article>
-
-                <!-- JOB 7 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2020.03 - 2021.07</span>
-                        <span class="location">SAN MATEO, CA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Software Engineer</h4>
-                        <h5 class="company">JETINSIGHT</h5>
-                        <p>Refactored payment systems ($1M+ daily tx). Developed regulatory compliance solutions. Rebuilt customer checkout for private flights.</p>
-                    </div>
-                </article>
-
-                <!-- JOB 8 -->
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2019.08 - 2020.03</span>
-                        <span class="location">SF BAY AREA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Senior Software Engineer</h4>
-                        <h5 class="company">INSTAWORK</h5>
-                        <p>Data Lake Architecture (AWS Athena, Redshift, Kafka, Spark). Front-end enhancements for user engagement.</p>
-                    </div>
-                </article>
-
-                 <!-- JOB 9 -->
-                 <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="date">2013.09 - 2019.04</span>
-                        <span class="location">SF BAY AREA</span>
-                    </div>
-                    <div class="log-content">
-                        <h4>Team Lead / Senior Software Engineer</h4>
-                        <h5 class="company">CREATIVELIVE</h5>
-                        <p>Led teams to architect RESTful APIs (Node.js). Developed data models and integrated MixPanel/Tableau/Salesforce. Built composable UI components.</p>
-                    </div>
-                </article>
-
-                <div class="log-summary">
-                    <p>...PRIOR RECORDS ARCHIVED: MUTUAL MOBILE (2013), ROCK CANDY MEDIA (2012)...</p>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- SECTION: NETWORK NODES (COMMUNITY) -->
-        <section id="network-nodes" class="panel">
-            <div class="panel-header">
-                <h3>// NETWORK_NODES</h3>
-                <span class="panel-id">SEC-03</span>
-            </div>
-            <div class="panel-body grid-2-col">
-                <div class="card">
-                    <h4>TOLEDO CODES</h4>
-                    <span class="badge">FOUNDER</span>
-                    <p>Building Northwest Ohio's tech community from the ground up.</p>
-                    <p>"Why leave for Silicon Valley when we can build something great right here?"</p>
-                    <ul>
-                        <li>Regular meetups for devs & founders</li>
-                        <li>Mentorship programs</li>
-                        <li>University pipeline</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h4>THE AI COLLECTIVE</h4>
-                    <span class="badge">REGIONAL MANAGER - MIDWEST</span>
-                    <p>Bringing The AI Collective to Ohio and the Midwest.</p>
-                    <p>Founding Partner of the Toledo Chapter.</p>
+            <div class="card-content">
+                <span class="card-label">CURRENT_MISSION_02</span>
+                <h3>EMPOWERED AI</h3>
+                <span class="card-role">DIRECTOR_OF_TECHNOLOGY</span>
+                <p>Guiding technology strategy and AI innovation. Partnering with executive leadership to drive real business outcomes through scalable solutions.</p>
+                <div class="tech-stack">
+                    <span>AI Strategy</span>
+                    <span>Innovation</span>
+                    <span>Scalability</span>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- SECTION: SYSTEM SPECS (SKILLS) -->
-        <section id="system-specs" class="panel">
-            <div class="panel-header">
-                <h3>// SYSTEM_SPECS</h3>
-                <span class="panel-id">SEC-04</span>
-            </div>
-            <div class="panel-body">
-                <div class="spec-group">
-                    <h4>SKILLS_LOADED:</h4>
-                    <div class="tags">
-                        <span>Community Organizing</span>
-                        <span>Community Building</span>
-                        <span>Product Development</span>
-                        <span>System Architecture</span>
-                        <span>Real-time Data</span>
-                        <span>AI Integration</span>
-                    </div>
-                </div>
-                <div class="spec-group">
-                    <h4>CERTIFICATIONS:</h4>
-                    <ul class="file-list">
-                        <li>Cisco Certified Network Associate (CCNA) - Routing and Switching</li>
-                    </ul>
-                </div>
-                <div class="spec-group">
-                    <h4>PUBLICATIONS:</h4>
-                    <p class="file-link">"Quantifying Label-Induced Bias in Large Language Model Self- and Cross-Evaluations"</p>
-                </div>
-                <div class="spec-group">
-                    <h4>EDUCATION_HISTORY:</h4>
-                    <ul class="file-list">
-                        <li>UNIVERSITY OF TOLEDO: Philosophy (2005 - 2007)</li>
-                        <li>CLAY HIGH SCHOOL: (2000 - 2004)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <!-- CARD 3: Toledo Codes -->
+        <div class="hud-card" id="card-tc">
+            <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
 
+            <div class="card-content">
+                <span class="card-label">COMMUNITY_NODE_01</span>
+                <h3>TOLEDO CODES</h3>
+                <span class="card-role">FOUNDER</span>
+                <p>Building Northwest Ohio's tech community. Meetups, mentorship, and pipelines to prove world-class tech happens here.</p>
+            </div>
+        </div>
+
+        <!-- CARD 4: The AI Collective -->
+        <div class="hud-card" id="card-aic">
+             <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
+
+            <div class="card-content">
+                <span class="card-label">COMMUNITY_NODE_02</span>
+                <h3>THE AI COLLECTIVE</h3>
+                <span class="card-role">REGIONAL_MANAGER</span>
+                <p>Founding Partner of the Toledo Chapter. Bringing the AI Collective to Ohio and the Midwest.</p>
+            </div>
+        </div>
+
+        <!-- CARD 5: GDG Toledo -->
+        <div class="hud-card" id="card-gdg">
+             <div class="card-corner top-left"></div>
+            <div class="card-corner top-right"></div>
+            <div class="card-corner bottom-left"></div>
+            <div class="card-corner bottom-right"></div>
+
+            <div class="card-content">
+                <span class="card-label">COMMUNITY_NODE_03</span>
+                <h3>GDG TOLEDO</h3>
+                <span class="card-role">ORGANIZER</span>
+                <p>Connecting developers with Google's technologies. Facilitating workshops, tech talks, and hackathons for the local ecosystem.</p>
+            </div>
+        </div>
     </main>
 
     <footer id="main-footer">
