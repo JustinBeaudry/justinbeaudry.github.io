@@ -23,7 +23,7 @@ body {
     color: var(--text-primary);
     font-family: var(--font-sans);
     line-height: 1.6;
-    overflow: hidden; /* Prevent scrolling on desktop for app-like feel */
+    overflow-y: hidden; /* Prevent scrolling on desktop for app-like feel */
 }
 
 /* --- SYSTEM OVERLAY (GRID & SCANLINES) --- */
