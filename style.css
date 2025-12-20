@@ -201,26 +201,6 @@ a:hover {
     }
 }
 
-#card-eai {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-
-#card-tc {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
-#card-aic {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-
-#card-gdg {
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-}
-
 /* --- HUD CARD STYLING --- */
 .hud-card {
     background: rgba(10, 10, 10, 0.8);
