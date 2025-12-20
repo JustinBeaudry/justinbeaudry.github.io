@@ -209,7 +209,6 @@ a:hover {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; Removed to prevent top clipping */
     transition: all 0.3s ease;
     backdrop-filter: blur(2px);
     overflow: hidden;
