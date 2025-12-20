@@ -431,8 +431,8 @@ a:hover {
 
     /* Stack the HUD grid on mobile */
     .hud-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
         height: auto;
         gap: 2rem;
         padding: 1rem;
@@ -454,6 +454,7 @@ a:hover {
     #main-footer {
         padding: 2rem 1rem;
         margin-top: 2rem;
+        position: relative; /* Let it flow naturally on mobile */
     }
 
     .footer-content {
